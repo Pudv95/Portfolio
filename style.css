@@ -99,7 +99,7 @@ nav .checkbox i {
     max-width: var(--max-width);
     margin: auto;
     padding: 1rem;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
 }
@@ -322,4 +322,23 @@ nav .checkbox i {
 
 #about p {
     margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .sec_container {
+        flex-direction: column;
+    }
+
+    .project {
+        flex-direction: column;
+    }
+
+    .content {
+        order: 2;
+    }
+
+    .image {
+        order: 1;
+    }
+
 }

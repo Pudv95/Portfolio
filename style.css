@@ -217,3 +217,76 @@ nav .checkbox i {
 #projects a:hover {
     color: var(--primary-color-dark);
 }
+
+#contact.section {
+    padding: 80px 0;
+}
+
+#contact .Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#contact .content {
+    text-align: center;
+}
+
+#contact h2 {
+    color: var(--primary-color);
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact form {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+#contact input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: var(--primary-color-dark);
+}

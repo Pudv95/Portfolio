@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-    --primary-color: #7458ff;        /* Background color */
-    --primary-color-dark: #b5baff;   /* Background color for dark theme */
-    --secondary-color: #ffcc00;      /* Accent color (yellow in this case) */
-    --text-dark: #f3f7ff;            /* Text color on light background */
-    --text-light: #e3e1f4;          /* Text color on dark background */
-    --extra-light: #03001a;          /* Extra light color */
+    --primary-color: #7458ff;    
+    --primary-color-dark: #b5baff;
+    --secondary-color: #ffcc00;     
+    --text-dark: #f3f7ff;           
+    --text-light: #e3e1f4;         
+    --extra-light: #03001a;          
     --max-width: 1200px;
 }
 

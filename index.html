@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
 </head>
+
 <body>
     <nav>
         <div class="nav_bar">
             <div class="my_pic">
-                <a href = "#">Paras</a>
+                <a href="#">Paras</a>
             </div>
-            <label for="check" class = "checkbox">
-                <i class = "ri-menu-line"></i>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
             </label>
-            <input type="checkbox" name="check" id="check"/>
-            <ul>
+            <input type="checkbox" name="check" id="check" />
+            <ul class = "nav_bar_list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -29,81 +32,87 @@
             <div class="content">
                 <p class="subtitle">Hello!</p>
                 <h1 class="title">
-                    I'm <span>Paras <br/>a</span> Web Developer
+                    I'm <span>Paras <br />a</span> Web Developer
                 </h1>
                 <p class="decription">
-                    Welcome to my Portfolio! I'm Paras Upadhayay, a newbie Web developer, a Flutter Developer and a Competitve programmer.
-                    I've Worked on few user friendly apps and variety of projects ranging from Payments app to Social Media application!
+                    Welcome to my Portfolio! I'm Paras Upadhayay, a newbie Web developer, a Flutter Developer and a
+                    Competitve programmer.
+                    I've Worked on few user friendly apps and variety of projects ranging from Payments app to Social
+                    Media application!
                 </p>
-                <div class="action__btns">
-                    <button class="hire__me">Hire Me</button>
+                <div class="action_buttons">
                     <button class="portfolio">Portfolio</button>
                 </div>
             </div>
             <div class="image">
-                <img src="https://media.licdn.com/dms/image/D4D03AQHrGoC7KTOAOw/profile-displayphoto-shrink_400_400/0/1669644346021?e=1701302400&v=beta&t=unhMIAbRFQeEDL1PaaAHTvsibW69zV966rsAgvV2MYA" alt="profile" />
+                <img src="https://media.licdn.com/dms/image/D4D03AQHrGoC7KTOAOw/profile-displayphoto-shrink_400_400/0/1669644346021?e=1701302400&v=beta&t=unhMIAbRFQeEDL1PaaAHTvsibW69zV966rsAgvV2MYA"
+                    alt="profile" />
             </div>
         </div>
     </section>
 
     <section class="section" id="about">
-        <div class="sec_container">
+        <div class="about_me">
             <div class="content">
                 <h2>About Me</h2>
                 <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam natus tempore minus animi voluptatibus laborum, veritatis quam dolorem aliquam enim inventore architecto dicta sapiente ipsam similique labore magnam quas explicabo quo amet?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam natus tempore minus animi voluptatibus
+                    laborum, veritatis quam dolorem aliquam enim inventore architecto dicta sapiente ipsam similique
+                    labore magnam quas explicabo quo amet?
                 </p>
             </div>
         </div>
     </section>
 
     <section class="section" id="projects">
-        <div class="sec_container">
+        <div class="project">
             <div class="content">
                 <h2>Projects</h2>
                 <ul>
                     <li class="proj1">
-                        <h1>Instagram Clone</h1>
+                        <h3>Instagram Clone</h3>
                     </li>
-                    <li class="proj1">
-                        <h1>Atari Breakout</h1>
+                    <li class="proj2">
+                        <h3>Atari Breakout</h3>
                     </li>
-                    <li class="proj1">
-                        <h1>World Clock</h1>
+                    <li class="proj3">
+                        <h3>World Clock</h3>
                     </li>
                 </ul>
-            </div>
         </div>
     </section>
 
     <section class="section" id="contact">
-        <div class="sec_container">
+        <div class="Contact">
             <div class="content">
                 <h2>Contact</h2>
                 <p>If you'd like to get in touch with me, feel free to use the contact information below:</p>
                 <ul>
                     <li><strong>Email:</strong> parasupadhayay95@gmail.com </li>
                     <li><strong>Phone:</strong> +91 86308 53056 </li>
-                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pudv95" target="_blank">LinkedIn Profile</a></li>
-                    <li><strong>GitHub:</strong> <a href="https://github.com/pudv95" target="_blank">GitHub Profile</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pudv95" target="_blank">LinkedIn
+                            Profile</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/pudv95" target="_blank">GitHub Profile</a>
+                    </li>
                 </ul>
                 <p>You can also use the form below to send me a message:</p>
                 <form action="mailto:parasupadhayay95@gmail.com" method="post" enctype="text/plain">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
-                    
+
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
-                    
+
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
-                    
+
                     <input type="submit" value="Send">
                 </form>
             </div>
         </div>
     </section>
-    
+
 
 </body>
+
 </html>

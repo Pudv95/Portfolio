@@ -184,7 +184,7 @@ nav .checkbox i {
 
 #projects .project {
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
+    justify-content: space-around;
 }
 
 #projects .card {

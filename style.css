@@ -95,7 +95,7 @@ nav .checkbox i {
 }
 
 .sec_container {
-    min-height: 100vh;
+    min-height: 90vh;
     max-width: var(--max-width);
     margin: auto;
     padding: 1rem;
@@ -146,17 +146,18 @@ nav .checkbox i {
     letter-spacing: 2px;
     padding: 1rem 2rem;
     outline: none;
+    margin-top: 2rem;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.portfolio {
+.resume {
     color: var(--primary-color);
 }
 
-.portfolio:hover {
+.resume:hover {
     background-color: var(--primary-color-dark);
     color: #ffffff;
 }
@@ -289,4 +290,36 @@ nav .checkbox i {
 
 #contact input[type="submit"]:hover {
     background-color: var(--primary-color-dark);
+}
+
+
+#about.section {
+    padding: 80px 0;
+}
+
+#about .about_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#about .content {
+    text-align: center;
+}
+
+#about h2 {
+    color: var(--primary-color);
+}
+
+#about .description {
+    margin-top: 20px;
+    max-width: 1200px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+#about p {
+    margin-bottom: 20px;
 }

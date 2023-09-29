@@ -171,23 +171,10 @@ nav .checkbox i {
     border-radius: 100%;
 }
 
-.section {
-    padding: 40px 20px;
-}
 
 #projects {
     padding: 40px 20px;
-}
-
-#projects .project {
-    background-color: var(--extra-light);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-#projects .content {
-    padding: 20px;
+    text-align: center;
 }
 
 #projects h2 {
@@ -195,14 +182,21 @@ nav .checkbox i {
     margin-bottom: 20px;
 }
 
-#projects ul {
-    list-style: none;
-    padding: 0;
+#projects .project {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
 }
 
-#projects li {
-    border-bottom: 1px solid #ddd;
+#projects .card {
+    background-color: var(--extra-light);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; /* Limit the maximum width for larger screens */
+    margin: 0 10px; /* Add margin between cards */
     padding: 20px;
+    text-align: center;
 }
 
 #projects h3 {

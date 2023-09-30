@@ -347,7 +347,7 @@ nav .checkbox i {
         display: block;
     }
 
-    ul {
+    .nav_bar_list ul {
         position: absolute;
         width: 100%;
         height: calc(100vh - 85px);
